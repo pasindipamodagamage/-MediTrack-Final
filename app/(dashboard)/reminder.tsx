@@ -31,7 +31,7 @@ const ReminderApp = () => {
       surface: '#f8f9fa',
       text: '#212121',
       secondaryText: '#757575',
-      accent: '#4361ee',
+      accent: '#4a90e2',
       border: '#e0e0e0',
     },
     dark: {
@@ -39,7 +39,7 @@ const ReminderApp = () => {
       surface: '#1e1e1e',
       text: '#f5f5f5',
       secondaryText: '#b0b0b0',
-      accent: '#5f75ee',
+      accent: '#4a90e2',
       border: '#2d2d2d',
     },
   };
