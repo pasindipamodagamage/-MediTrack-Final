@@ -208,32 +208,6 @@ const Account = () => {
             </View>
           </View>
 
-          {/* Additional Info Cards */}
-          <View style={styles.infoCardsContainer}>
-            <View style={styles.infoCard}>
-              <Ionicons name="calendar" size={24} color="#007AFF" />
-              <View style={styles.infoCardContent}>
-                <Text style={styles.infoCardTitle}>Member Since</Text>
-                <Text style={styles.infoCardValue}>January 2024</Text>
-              </View>
-            </View>
-
-            <View style={styles.infoCard}>
-              <Ionicons name="document" size={24} color="#34C759" />
-              <View style={styles.infoCardContent}>
-                <Text style={styles.infoCardTitle}>Prescriptions</Text>
-                <Text style={styles.infoCardValue}>3 Active</Text>
-              </View>
-            </View>
-
-            <View style={styles.infoCard}>
-              <Ionicons name="people" size={24} color="#FF9500" />
-              <View style={styles.infoCardContent}>
-                <Text style={styles.infoCardTitle}>Family Members</Text>
-                <Text style={styles.infoCardValue}>2 Registered</Text>
-              </View>
-            </View>
-          </View>
 
           {/* Logout Button */}
           <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
