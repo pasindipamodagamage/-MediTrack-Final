@@ -91,9 +91,9 @@ const Login = () => {
           <View style={styles.content}>
             {/* Logo/Header Section */}
             <View style={styles.logoContainer}>
-              <MedicalCrossIcon size={80} color="#000" />
-              <Text style={styles.appName}>Medi-Care</Text>
-              <Text style={styles.tagline}>Your Health, Our Priority</Text>
+              <MedicalCrossIcon size={80} color="#FF0000" />
+              <Text style={styles.appName}>Medi Track</Text>
+              <Text style={styles.tagline}>Trusted Care, Anytime, Anywhere</Text>
             </View>
 
             {/* Login Form */}
@@ -171,7 +171,7 @@ const Login = () => {
                 onPress={() => router.push("/register")}
               >
                 <Text style={styles.signupText}>
-                  Don't have an account?{" "}
+                  Don&apos;t have an account?{" "}
                   <Text style={styles.signupLink}>Register Now</Text>
                 </Text>
               </Pressable>
@@ -182,6 +182,167 @@ const Login = () => {
     </View>
   );
 };
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#f9fafb", // light neutral bg
+//   },
+//   keyboardAvoid: {
+//     flex: 1,
+//   },
+//   scrollContainer: {
+//     flexGrow: 1,
+//     justifyContent: "center",
+//   },
+//   content: {
+//     padding: 20,
+//   },
+//   logoContainer: {
+//     alignItems: "center",
+//     justifyContent: "center",
+//     padding: 30,
+//     borderRadius: 20,
+//     marginBottom: 30,
+//     backgroundColor: "#f3f4f6", // light gray box
+//     overflow: "hidden",
+//     borderWidth: 1,
+//     borderColor: "#e5e7eb",
+//   },
+//   logo: {
+//     position: "relative",
+//     justifyContent: "center",
+//     alignItems: "center",
+//   },
+//   crossLine: {
+//     position: "absolute",
+//     borderRadius: 3,
+//   },
+//   appName: {
+//     fontSize: 32,
+//     fontWeight: "800",
+//     color: "#111827", // dark neutral
+//     marginTop: 15,
+//     letterSpacing: 1,
+//   },
+//   tagline: {
+//     fontSize: 14,
+//     color: "#6b7280", // muted gray
+//     marginTop: 5,
+//     fontWeight: "500",
+//   },
+//   formContainer: {
+//     backgroundColor: "#fff",
+//     borderRadius: 20,
+//     padding: 25,
+//     shadowColor: "#000",
+//     shadowOffset: { width: 0, height: 2 },
+//     shadowOpacity: 0.1,
+//     shadowRadius: 4,
+//     elevation: 4,
+//     borderWidth: 1,
+//     borderColor: "#e5e7eb",
+//   },
+//   welcomeText: {
+//     fontSize: 24,
+//     fontWeight: "700",
+//     color: "#111827",
+//     textAlign: "center",
+//     marginBottom: 5,
+//   },
+//   instructionText: {
+//     fontSize: 14,
+//     color: "#6b7280",
+//     textAlign: "center",
+//     marginBottom: 25,
+//   },
+//   inputContainer: {
+//     flexDirection: "row",
+//     alignItems: "center",
+//     backgroundColor: "#f3f4f6",
+//     borderRadius: 12,
+//     paddingHorizontal: 15,
+//     height: 55,
+//     marginBottom: 15,
+//     borderWidth: 1,
+//     borderColor: "#d1d5db",
+//   },
+//   inputIcon: {
+//     marginRight: 10,
+//   },
+//   input: {
+//     flex: 1,
+//     height: "100%",
+//     color: "#111827",
+//     fontSize: 16,
+//   },
+//   eyeIcon: {
+//     padding: 5,
+//   },
+//   forgotPassword: {
+//     alignSelf: "flex-end",
+//     marginBottom: 20,
+//   },
+//   forgotPasswordText: {
+//     color: "#2563eb", // blue link
+//     fontSize: 14,
+//     fontWeight: "600",
+//     textDecorationLine: "underline",
+//   },
+//   loginButton: {
+//     height: 55,
+//     borderRadius: 12,
+//     overflow: "hidden",
+//     marginBottom: 20,
+//     backgroundColor: "#2563eb", // primary blue
+//     shadowColor: "#2563eb",
+//     shadowOffset: { width: 0, height: 2 },
+//     shadowOpacity: 0.25,
+//     shadowRadius: 4,
+//     elevation: 4,
+//   },
+//   buttonContent: {
+//     flex: 1,
+//     flexDirection: "row",
+//     alignItems: "center",
+//     justifyContent: "center",
+//     paddingHorizontal: 20,
+//   },
+//   loginButtonText: {
+//     color: "#fff",
+//     fontSize: 18,
+//     fontWeight: "bold",
+//     marginRight: 10,
+//   },
+//   divider: {
+//     flexDirection: "row",
+//     alignItems: "center",
+//     marginBottom: 20,
+//   },
+//   dividerLine: {
+//     flex: 1,
+//     height: 1,
+//     backgroundColor: "#e5e7eb",
+//   },
+//   dividerText: {
+//     color: "#6b7280",
+//     paddingHorizontal: 10,
+//     fontSize: 14,
+//     fontWeight: "600",
+//   },
+//   signupContainer: {
+//     alignItems: "center",
+//   },
+//   signupText: {
+//     color: "#374151", // darker gray
+//     fontSize: 15,
+//   },
+//   signupLink: {
+//     color: "#2563eb", // blue link
+//     fontWeight: "700",
+//     textDecorationLine: "underline",
+//   },
+// });
 
 const styles = StyleSheet.create({
   container: {
