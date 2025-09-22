@@ -11,9 +11,9 @@ const Home = () => {
   ];
 
   const contactMethods: { id: string; type: string; value: string; icon: 'phone' | 'email' | 'location-on'; action: string }[] = [
-    { id: '1', type: 'Phone', value: '+1 (555) 123-4567', icon: 'phone', action: 'tel:+15551234567' },
-    { id: '2', type: 'Email', value: 'support@medicare.com', icon: 'email', action: 'mailto:support@medicare.com' },
-    { id: '3', type: 'Address', value: '123 Health Street, Medical City', icon: 'location-on', action: 'https://maps.google.com' },
+    { id: '1', type: 'Phone', value: '+94 77 379 3891', icon: 'phone', action: '+94 77 379 3891' },
+    { id: '2', type: 'Email', value: 'support@meditrack.com', icon: 'email', action: 'mailto:support@meditrack.com' },
+    { id: '3', type: 'Address', value: 'Main Road, Galle', icon: 'location-on', action: 'https://maps.google.com' },
   ];
 
   return (
@@ -23,8 +23,8 @@ const Home = () => {
         <View style={styles.headerContent}>
           <View style={styles.welcomeSection}>
             <Text style={styles.greeting}>Welcome to</Text>
-            <Text style={styles.appName}>Medi-Care</Text>
-            <Text style={styles.tagline}>Your Health, Our Priority</Text>
+            <Text style={styles.appName}>Medi Track</Text>
+            <Text style={styles.tagline}>Trusted Care, Anytime, Anywhere</Text>
           </View>
         </View>
       </View>
@@ -35,9 +35,7 @@ const Home = () => {
         <View style={styles.aboutSection}>
           <Text style={styles.sectionTitle}>About Medi-Care</Text>
           <Text style={styles.aboutText}>
-            Medi-Care is a revolutionary pharmacy mobile application designed to simplify 
-            pharmacy services while encouraging healthier lifestyles. We bridge the gap between 
-            traditional pharmacy services and modern digital convenience.
+            Medi Track is a next-generation healthcare mobile application designed to make medication management effortless while promoting better health outcomes. It seamlessly integrates traditional healthcare support with modern digital innovation, helping users track prescriptions, set reminders, and monitor their health progress with ease.
           </Text>
           <Text style={styles.aboutText}>
             Our mission is to create a simple, user-friendly platform that connects pharmacies 
@@ -65,7 +63,7 @@ const Home = () => {
         <View style={styles.contactSection}>
           <Text style={styles.sectionTitle}>Contact Us</Text>
           <Text style={styles.contactIntro}>
-            Have questions or need assistance? We're here to help you!
+            Have questions or need assistance? We&apos;re here to help you!
           </Text>
           
           <View style={styles.contactMethods}>
