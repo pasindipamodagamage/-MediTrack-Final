@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Medi-Care",
-    "slug": "Medi-Care",
+    "name": "Medi Track",
+    "slug": "Medi Track",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,7 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.vishan.medicare"
+      "package": "com.pasindi.meditrack"
     },
     "web": {
       "bundler": "metro",
