@@ -106,16 +106,16 @@ const handleRegister = async () => {
           <View style={styles.content}>
             {/* Logo/Header Section */}
             <View style={styles.logoContainer}>
-              <MedicalCrossIcon size={80} color="#000" />
-              <Text style={styles.appName}>Medi-Care</Text>
-              <Text style={styles.tagline}>Your Health, Our Priority</Text>
+              <MedicalCrossIcon size={80} color="#FF0000" />
+              <Text style={styles.appName}>Medi Track</Text>
+              <Text style={styles.tagline}>Trusted Care, Anytime, Anywhere</Text>
             </View>
 
             {/* Registration Form */}
             <View style={styles.formContainer}>
               <Text style={styles.welcomeText}>Create Account</Text>
               <Text style={styles.instructionText}>
-                Sign up to get started with Medi-Care
+                Sign up to get started with Medi Track
               </Text>
 
               <View style={styles.inputContainer}>
