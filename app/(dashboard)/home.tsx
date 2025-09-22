@@ -33,7 +33,7 @@ const Home = () => {
       <ScrollView style={styles.content}>
         {/* About Us Section */}
         <View style={styles.aboutSection}>
-          <Text style={styles.sectionTitle}>About Medi-Care</Text>
+          <Text style={styles.sectionTitle}>About </Text>
           <Text style={styles.aboutText}>
             Medi Track is a next-generation healthcare mobile application designed to make medication management effortless while promoting better health outcomes. It seamlessly integrates traditional healthcare support with modern digital innovation, helping users track prescriptions, set reminders, and monitor their health progress with ease.
           </Text>
