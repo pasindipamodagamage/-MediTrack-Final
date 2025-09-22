@@ -9,12 +9,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCHIJkfIauYmYaTlQktETuyd7dErWlwVmE",
-  authDomain: "medi-care-baa95.firebaseapp.com",
-  projectId: "medi-care-baa95",
-  storageBucket: "medi-care-baa95.firebasestorage.app",
-  messagingSenderId: "517520971040",
-  appId: "1:517520971040:web:21fb2bb373e51cfad13345"
+    apiKey: "AIzaSyB8ykEKTBFFhn_qaZllOTa1qMHxIAr8O1M",
+    authDomain: "meditrack-f1ad3.firebaseapp.com",
+    projectId: "meditrack-f1ad3",
+    storageBucket: "meditrack-f1ad3.firebasestorage.app",
+    messagingSenderId: "74284588919",
+    appId: "1:74284588919:web:79c0cc21f5dc2fbdc18b72",
+    measurementId: "G-8MRS8CL2SS"
 };
 
 // Initialize Firebase
