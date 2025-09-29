@@ -9,9 +9,10 @@ This project is built with [Expo](https://expo.dev) and React Native.
 
 ---
 
-## 📱 Download APK
+## 📲 Download & Preview
 
-👉 [**Download MediTrack APK**](https://expo.dev/artifacts/eas/eebg6oMHH6hiEwCQuMKvga.apk)
+- 📥 **[Download APK](https://expo.dev/artifacts/eas/eebg6oMHH6hiEwCQuMKvga.apk)**  
+- 🎥 **[Watch Mockup Video](https://youtu.be/PwXpa1MKqzk)**  
 
 ---
 
