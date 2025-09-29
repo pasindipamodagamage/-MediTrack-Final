@@ -9,6 +9,12 @@ This project is built with [Expo](https://expo.dev) and React Native.
 
 ---
 
+## 📱 Download APK
+
+👉 [**Download MediTrack APK**](https://expo.dev/artifacts/eas/eebg6oMHH6hiEwCQuMKvga.apk)
+
+---
+
 ## 🚀 Features
 
 - 📋 Manage prescriptions and medications  
